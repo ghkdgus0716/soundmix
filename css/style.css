@@ -1,0 +1,20 @@
+body{ 
+  color:white;
+  font: 4vw 'Roboto', sans-serif !important;
+  font-weight: 800; padding: 0;margin: 0;
+}
+h2{ 
+  width: 99%; 
+  font-size: inherit;
+  position: absolute;
+  top: -20%; 
+  left:35%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+}
+[class^=char]{
+  display: inline-block !important;
+  line-height: 3.5;
+  transform-origin: bottom;
+}
